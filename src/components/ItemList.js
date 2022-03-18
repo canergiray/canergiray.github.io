@@ -16,7 +16,6 @@ const ItemListItem = ({ item, addItemBasketHandler }) => {
           <ItemListCardMedia
             component="img"
             image={image}
-            alt="Live from space album cover"
           />
           <ItemListImageHeadingText>
             <ItemListHeadingText>{headingText}</ItemListHeadingText>

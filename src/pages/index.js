@@ -36,9 +36,7 @@ const IndexPage = () => {
       <Seo title="QR Menu" />
       <Content style={{ paddingBottom: "50px" }}>
         <GreetingText variant="h5" component="div" sx={{ flexGrow: 1 }}>
-          {getHours() < 12 && "Günaydın!"}
-          {getHours() > 12 && getHours() < 18 && "Merhaba!"}
-          {getHours() > 18 && "İyi Akşamlar!"}
+          Hoşgeldiniz!
         </GreetingText>
         <ItemBasket basket={basket} removeBasketHandler={removeBasketHandler} />
         <FilterMenu

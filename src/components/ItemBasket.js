@@ -4,6 +4,52 @@ import styledComponents from "styled-components"
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket"
 import ClearIcon from "@mui/icons-material/Clear"
 
+const ItemBasket = ({ basket, removeBasketHandler }) => {
+  const [expanded, setExpanded] = useState(false)
+
+  return (
+    <ItemBasketWrapper
+      onClick={e =>
+        basket.length > 0 &&
+        (e.target.id !== "remove" || basket.length === 1) &&
+        setExpanded(!expanded)
+      }
+    >
+      <ShoppingBasketIcon />
+      {basket.length > 0 && <CountBadge>{basket.length}</CountBadge>}
+      <ItemBasketModalWrapper expanded={expanded}>
+        <ItemBasketModalContent>
+          <ul>
+            {basket.map((item, index) => (
+              <li>
+                <Typography>{item.headingText}</Typography>
+                <Typography>{item.price}</Typography>
+                <Typography>
+                  <ClearIcon
+                    id="remove"
+                    onClick={() => removeBasketHandler(index)}
+                  />
+                </Typography>
+              </li>
+            ))}
+            <li>
+              <Typography style={{ fontWeight: "600" }}>
+                Toplam:&nbsp;
+                {basket.length > 0 &&
+                  basket.reduce(
+                    (acc, curr) => acc + Number.parseFloat(curr.price),
+                    0
+                  )}
+                ₺
+              </Typography>
+            </li>
+          </ul>
+        </ItemBasketModalContent>
+      </ItemBasketModalWrapper>
+    </ItemBasketWrapper>
+  )
+}
+
 const ItemBasketModalWrapper = styledComponents.div`
     position: absolute;
     right: 0;
@@ -60,52 +106,6 @@ const ItemBasketModalContent = styledComponents.div`
         margin-right: 1rem;
     }
 `
-
-const ItemBasket = ({ basket, removeBasketHandler }) => {
-  const [expanded, setExpanded] = useState(false)
-
-  return (
-    <ItemBasketWrapper
-      onClick={e =>
-        basket.length > 0 &&
-        (e.target.id !== "remove" || basket.length === 1) &&
-        setExpanded(!expanded)
-      }
-    >
-      <ShoppingBasketIcon />
-      {basket.length > 0 && <CountBadge>{basket.length}</CountBadge>}
-      <ItemBasketModalWrapper expanded={expanded}>
-        <ItemBasketModalContent>
-          <ul>
-            {basket.map((item, index) => (
-              <li>
-                <Typography>{item.headingText}</Typography>
-                <Typography>{item.price}</Typography>
-                <Typography>
-                  <ClearIcon
-                    id="remove"
-                    onClick={() => removeBasketHandler(index)}
-                  />
-                </Typography>
-              </li>
-            ))}
-            <li>
-              <Typography style={{ fontWeight: "600" }}>
-                Toplam:&nbsp;
-                {basket.length > 0 &&
-                  basket.reduce(
-                    (acc, curr) => acc + Number.parseFloat(curr.price),
-                    0
-                  )}
-                ₺
-              </Typography>
-            </li>
-          </ul>
-        </ItemBasketModalContent>
-      </ItemBasketModalWrapper>
-    </ItemBasketWrapper>
-  )
-}
 
 const PriceTotalBadge = styledComponents.div`
     position: fixed;

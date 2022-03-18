@@ -112,6 +112,7 @@ const Modal = styled(props => {
   }
 `
 const GoBackButton = styledComponents(Button)`
+&& {
   position: fixed;
   outline: none;
   color: rgba(255, 255, 255, 0.9);
@@ -133,9 +134,11 @@ const GoBackButton = styledComponents(Button)`
     width: 35px;
     height: 35px;
   }
+}
 `
 
 const TitleText = styledComponents(Typography)`
+&& {
   position: absolute;
   color: white;
   background: rgba(0,0,0,0.4);
@@ -144,6 +147,7 @@ const TitleText = styledComponents(Typography)`
   padding: 5px 10px;
   font-size: 0.9rem;
   font-weight: 700;
+}
 `
 
 export default CategoryModal

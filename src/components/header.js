@@ -5,22 +5,6 @@ import Toolbar from "@mui/material/Toolbar"
 import Typography from "@mui/material/Typography"
 import styledComponents from "styled-components"
 
-const TitleWrapper = styledComponents.div`
-  width: 100%;
-  margin-top: auto;
-  margin-left: 72px;
-
-  > img {
-    position: absolute;
-    top: 6px;
-    left: 12px;
-    margin: 0;
-    height: 72px;
-    width: 72px;
-    padding: 5px;
-  }
-`
-
 const Header = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -45,5 +29,21 @@ const Header = () => {
     </Box>
   )
 }
+
+const TitleWrapper = styledComponents.div`
+  width: 100%;
+  margin-top: auto;
+  margin-left: 72px;
+
+  > img {
+    position: absolute;
+    top: 6px;
+    left: 12px;
+    margin: 0;
+    height: 72px;
+    width: 72px;
+    padding: 5px;
+  }
+`
 
 export default Header

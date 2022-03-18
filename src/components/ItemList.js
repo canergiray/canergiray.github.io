@@ -76,17 +76,21 @@ const ItemListImageHeadingText = styledComponents.div`
 `
 
 const ItemListHeadingText = styledComponents(Typography)`
+&&{
   display: flex;
   fontSize: 1rem;
   line-height: 2rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
 `
 
 const ItemListDescriptionText = styledComponents(Typography)`
+&&{
   font-size: 0.6rem;
   color: rgba(0, 0, 0, 0.6);
+}
 `
 
 const ItemListTextContent = styledComponents.div`
@@ -100,6 +104,7 @@ const ItemListTextContent = styledComponents.div`
 `
 
 const PriceTag = styledComponents(Typography)`
+&&{
   display: inline-block;
   z-index: 1;
   color: white;
@@ -109,46 +114,53 @@ const PriceTag = styledComponents(Typography)`
   padding: 5px;
   font-size: 0.9rem;
   font-weight: 800;
+}
 `
 
 const ItemListCard = styledComponents(Card)`
-    position: relative;
-    border-radius: 0;
-    box-shadow: 0px 1px 9px 0px rgb(0 0 0 / 20%), 
-                   0px 1px 1px 0px rgb(0 0 0 / 14%), 
-                   0px 1px 3px 0px rgb(0 0 0 / 12%);    
-    display: flex;
+&&{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0px 1px 9px 0px rgb(0 0 0 / 20%), 
+  0px 1px 1px 0px rgb(0 0 0 / 14%), 
+  0px 1px 3px 0px rgb(0 0 0 / 12%);    
+  display: flex;
+  height: auto;
+  max-height: 200px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  
+  > img {
     height: auto;
-    max-height: 200px;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 10px;
-
-    > img {
-        height: auto;
-        max-height: 100px;
-    }
-`
-
-const ItemListCardMedia = styledComponents(CardMedia)`
     max-height: 100px;
+  }
+}
+  `
+  
+const ItemListCardMedia = styledComponents(CardMedia)`
+  &{
+    max-height: 100px;
+  }
 `
 
 const AddToCartButton = styledComponents(Button)`
+&{
   height: auto;
   max-height: 110px;
   width: 20%;
   padding: 0;
   border-radius: 0;
   background-color: rgba(0,0,0, 1);
-
+  
   &:hover, &:active {
     background-color: rgba(0,0,0,0.9);
   }
-
+  
   > svg {
     color: rgba(255, 255, 255, 0.9);
   }
-`
-
+}
+  `
+  
 export default ItemList

@@ -85,7 +85,7 @@ const ItemListHeadingText = styledComponents(Typography)`
 `
 
 const ItemListDescriptionText = styledComponents(Typography)`
-  font-size: 0.6rem;
+  font-size: 0.6rem !important;
   color: rgba(0, 0, 0, 0.6) !important;
 `
 
@@ -95,7 +95,7 @@ const ItemListTextContent = styledComponents.div`
     line-height: 100%;
     overflow: hidden;
     > * {
-      margin-left: 5px;
+      margin-left: 5px !important;
     }
 `
 
@@ -140,7 +140,7 @@ const AddToCartButton = styledComponents(Button)`
   width: 20% !important;
   padding: 0 !important;
   border-radius: 0 !important;
-  background-color: rgba(0,0,0, 1) !important;
+  background-color: rgba(0,0,0,1) !important;
   
   &:hover, &:active {
     background-color: rgba(0,0,0,0.9) !important;

@@ -33,7 +33,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title="QR Menu" />
       <Content style={{ paddingBottom: "50px" }}>
         <GreetingText variant="h5" component="div" sx={{ flexGrow: 1 }}>
           {getHours() < 12 && "Günaydın!"}

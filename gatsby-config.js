@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gunbatimi Cafe`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Gunbatimi Cafe & Restaurant`,
     author: `@gatsbyjs`,
     siteUrl: `https://gunbatimi.cafe`,
   },

@@ -1,31 +1,81 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import Typography from "@mui/material/Typography"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Seo from "../components/seo"
+import styled from "styled-components"
+import FilterMenu from "../components/FilterMenu"
+import ProductModalExpandable from "../components/CategoryModal"
+import Stack from "@mui/material/Stack"
+import ItemBasket from "../components/ItemBasket"
 
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
-  </Layout>
-)
+import categories from "../../static/categories.json"
+
+const IndexPage = () => {
+  const [basket, setBasket] = React.useState([])
+
+  const addItemBasketHandler = item => {
+    setBasket([...basket, item])
+  }
+
+  const removeBasketHandler = index => {
+    setBasket(basket.filter((_, i) => index !== i))
+  }
+
+  const filters = ["Tümü", "Yemekler", "İçecekler", "Tatlılar"]
+  const [filter, setFilter] = React.useState("Tümü")
+
+  const filterHandler = filter => {
+    setFilter(filter)
+  }
+
+  const getHours = () => new Date().getHours()
+
+  return (
+    <Layout>
+      <Seo title="Home" />
+      <Content style={{ paddingBottom: "50px" }}>
+        <GreetingText variant="h5" component="div" sx={{ flexGrow: 1 }}>
+          {getHours() < 12 && "Günaydın!"}
+          {getHours() > 12 && getHours() < 18 && "Merhaba!"}
+          {getHours() > 18 && "İyi Akşamlar!"}
+        </GreetingText>
+        <ItemBasket basket={basket} removeBasketHandler={removeBasketHandler} />
+        <FilterMenu
+          filters={filters}
+          activeFilter={filter}
+          filterHandler={filterHandler}
+        />
+        <Stack
+          direction="column"
+          spacing={1}
+          style={{ position: "relative", marginTop: 10 }}
+        >
+          {categories.map(category => {
+            if (filter !== "Tümü" && category.category !== filter) return
+            return (
+              <ProductModalExpandable
+                categoryData={category}
+                basket={basket}
+                addItemBasketHandler={addItemBasketHandler}
+              />
+            )
+          })}
+        </Stack>
+      </Content>
+    </Layout>
+  )
+}
+
+const Content = styled.div`
+  padding-left: 16px;
+  padding-right: 16px;
+`
+
+const GreetingText = styled(Typography)`
+  width: 100%;
+  font-weight: 500;
+  margin-top: 16px;
+`
 
 export default IndexPage

@@ -76,78 +76,74 @@ const Modal = styled(props => {
   return <Card sx={{ display: "flex" }} {...other} />
 })`
   display: block !important;
-  border-radius: 0;
-  overflow-y: scroll;
-  transition: all 0.3s ease-in-out;
+  border-radius: 0 !important;
+  overflow-y: scroll !important;
+  transition: all 0.3s ease-in-out !important;
 
   ${({ expanded }) =>
     expanded && {
-      position: "fixed",
-      top: 150,
-      left: 16,
-      right: 16,
-      bottom: 0,
-      zIndex: 5000,
-      height: "100vh",
+      position: "fixed !important",
+      top: '150px !important',
+      left: '16px !important',
+      right: '16px !important',
+      bottom: '0px  !important',
+      zIndex: '5000 !important',
+      height: "100vh !important",
       marginBottom: "-150px !important",
       marginRight: "-16px !important",
       marginLeft: "-16px !important",
       marginTop: "-150px !important",
-      transition: "all 0.3s ease-in-out",
-      borderRadius: 0,
+      transition: "all 0.3s ease-in-out !important",
+      borderRadius: '0px !important',
     }}
   img {
-    min-width: 80%;
-    height: 100px;
-    margin-bottom: 0;
-    outline: none;
+    min-width: 80% !important;
+    height: 100px !important;
+    margin-bottom: 0 !important;
+    outline: none !important;
     ${({ expanded }) =>
       expanded && {
-        width: "100%",
-        height: "250px",
-        transform: "scale(1.2, 1.2)",
-        transition: "all 1s",
+        width: "100% !important",
+        height: "250px !important",
+        transform: "scale(1.2, 1.2) !important",
+        transition: "all 1s !important",
       }}
-    transition: "all 1s ease-in-out",
+    transition: "all 1s ease-in-out !important",
   }
 `
 const GoBackButton = styledComponents(Button)`
-&& {
-  position: fixed;
-  outline: none;
-  color: rgba(255, 255, 255, 0.9);
-  z-index: 5001;
-  height: 60px;
-  width: 60px;
-  padding: 10px;
-  margin: 5px;
-  top: 10px;
-  left: 1px;
-  background-color: rgba(0,0,0, 0.9);
-  border-radius: 100%;
+  position: fixed !important;
+  outline: none !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  z-index: 5001 !important;
+  height: 60px !important;
+  width: 60px !important;
+  padding: 10px !important;
+  margin: 5px !important;
+  top: 10px !important;
+  left: 1px !important;
+  background-color: rgba(0,0,0, 0.9) !important;
+  border-radius: 100% !important;
 
   &:hover, &:active {
-      background-color: rgba(0,0,0, 0.8);
+      background-color: rgba(0,0,0, 0.8) !important;
   }
 
   > svg {
-    width: 35px;
-    height: 35px;
-  }
+    width: 35px !important;
+    height: 35px !important;
 }
 `
 
 const TitleText = styledComponents(Typography)`
-&& {
-  position: absolute;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  top: 0;
-  left: 0;
-  padding: 5px 10px;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
+  position: absolute !important;
+  color: white !important;
+  background: rgba(0,0,0,0.4) !important;
+  top: 0 !important;
+  left: 0 !important;
+  padding: 5px 10px !important;
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
 `
 
 export default CategoryModal

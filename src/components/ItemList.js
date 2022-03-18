@@ -76,21 +76,17 @@ const ItemListImageHeadingText = styledComponents.div`
 `
 
 const ItemListHeadingText = styledComponents(Typography)`
-&&{
-  display: flex;
-  fontSize: 1rem;
-  line-height: 2rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+  display: flex !important;
+  fontSize: 1rem !important;
+  line-height: 2rem !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 `
 
 const ItemListDescriptionText = styledComponents(Typography)`
-&&{
   font-size: 0.6rem;
-  color: rgba(0, 0, 0, 0.6);
-}
+  color: rgba(0, 0, 0, 0.6) !important;
 `
 
 const ItemListTextContent = styledComponents.div`
@@ -104,63 +100,55 @@ const ItemListTextContent = styledComponents.div`
 `
 
 const PriceTag = styledComponents(Typography)`
-&&{
-  display: inline-block;
-  z-index: 1;
-  color: white;
-  background: rgba(0,0,0,0.7);
-  margin-left: auto;
-  width: auto;
-  padding: 5px;
-  font-size: 0.9rem;
-  font-weight: 800;
-}
+  display: inline-block !important;
+  z-index: 1 !important;
+  color: white !important;
+  background: rgba(0,0,0,0.7) !important;
+  margin-left: auto !important;
+  width: auto !important;
+  padding: 5px !important;
+  font-size: 0.9rem !important;
+  font-weight: 800 !important;
 `
 
 const ItemListCard = styledComponents(Card)`
-&&{
-  position: relative;
-  border-radius: 0;
+  position: relative !important;
+  border-radius: 0 !important;
   box-shadow: 0px 1px 9px 0px rgb(0 0 0 / 20%), 
   0px 1px 1px 0px rgb(0 0 0 / 14%), 
-  0px 1px 3px 0px rgb(0 0 0 / 12%);    
-  display: flex;
-  height: auto;
-  max-height: 200px;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
+  0px 1px 3px 0px rgb(0 0 0 / 12%) !important;    
+  display: flex !important;
+  height: auto !important;
+  max-height: 200px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
   
   > img {
-    height: auto;
-    max-height: 100px;
+    height: auto !important;
+    max-height: 100px !important;
   }
-}
   `
   
 const ItemListCardMedia = styledComponents(CardMedia)`
-  &{
-    max-height: 100px;
-  }
+  max-height: 100px !important;
 `
 
 const AddToCartButton = styledComponents(Button)`
-&{
-  height: auto;
-  max-height: 110px;
-  width: 20%;
-  padding: 0;
-  border-radius: 0;
-  background-color: rgba(0,0,0, 1);
+  height: auto !important;
+  max-height: 110px !important;
+  width: 20% !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background-color: rgba(0,0,0, 1) !important;
   
   &:hover, &:active {
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.9) !important;
   }
   
   > svg {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9) !important;
   }
-}
   `
   
 export default ItemList

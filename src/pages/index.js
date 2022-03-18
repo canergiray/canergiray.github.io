@@ -75,7 +75,7 @@ const Content = styled.div`
 const GreetingText = styled(Typography)`
   width: 100%;
   font-weight: 500;
-  margin-top: 16px;
+  margin-top: 16px !important;
 `
 
 export default IndexPage

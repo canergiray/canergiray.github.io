@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://gunbatimi.cafe`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

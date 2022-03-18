@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography"
 
 import Layout from "../components/Layout"
 import Seo from "../components/seo"
-import styled from "styled-components"
+import styledComponents from "styled-components"
 import FilterMenu from "../components/FilterMenu"
 import ProductModalExpandable from "../components/CategoryModal"
 import Stack from "@mui/material/Stack"
@@ -67,12 +67,12 @@ const IndexPage = () => {
   )
 }
 
-const Content = styled.div`
+const Content = styledComponents.div`
   padding-left: 16px;
   padding-right: 16px;
 `
 
-const GreetingText = styled(Typography)`
+const GreetingText = styledComponents(Typography)`
   width: 100%;
   font-weight: 500;
   margin-top: 16px !important;

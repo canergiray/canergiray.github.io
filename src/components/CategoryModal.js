@@ -1,6 +1,6 @@
 import * as React from "react"
-import styledComponents from "styled-components"
 import { styled } from "@mui/material/styles"
+import styledComponents from "styled-components"
 import { Box } from "@mui/material"
 import Card from "@mui/material/Card"
 import CardMedia from "@mui/material/CardMedia"
@@ -11,8 +11,8 @@ import { Button } from "@mui/material"
 import ArrowBackRoundedIcon from "@mui/icons-material/ArrowBackRounded"
 import ItemList from "./ItemList"
 
-const CategoryModal = ({ categoryData, basket, addItemBasketHandler }) => {
-  const { image, title, category, subCategory, products } = categoryData
+const CategoryModal = ({ categoryData, addItemBasketHandler }) => {
+  const { image, title, products } = categoryData
   const [expanded, setExpanded] = React.useState(false)
   const ref = React.useRef()
 

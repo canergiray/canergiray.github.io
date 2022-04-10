@@ -9,10 +9,21 @@ import ProductModalExpandable from "../components/CategoryModal"
 import Stack from "@mui/material/Stack"
 import ItemBasket from "../components/ItemBasket"
 
-import categories from "../../static/categories.json"
-
 const IndexPage = () => {
+  const [loading, setLoading] = React.useState(true)
+  const [categories, setCategories] = React.useState([])
   const [basket, setBasket] = React.useState([])
+
+  React.useEffect(() => {
+    async function fetchCategories() {
+      const data = await fetch("https://gunbatimi.cafe/categories.json").then(
+        res => res.json()
+      )
+      setCategories(data)
+      setLoading(false)
+    }
+    fetchCategories()
+  }, [])
 
   const addItemBasketHandler = item => {
     setBasket([...basket, item])
@@ -44,22 +55,24 @@ const IndexPage = () => {
           activeFilter={filter}
           filterHandler={filterHandler}
         />
-        <Stack
-          direction="column"
-          spacing={1}
-          style={{ position: "relative", marginTop: 10 }}
-        >
-          {categories.map(category => {
-            if (filter !== "Tümü" && category.category !== filter) return
-            return (
-              <ProductModalExpandable
-                categoryData={category}
-                basket={basket}
-                addItemBasketHandler={addItemBasketHandler}
-              />
-            )
-          })}
-        </Stack>
+        {!loading && (
+          <Stack
+            direction="column"
+            spacing={1}
+            style={{ position: "relative", marginTop: 10 }}
+          >
+            {categories.map(category => {
+              if (filter !== "Tümü" && category.category !== filter) return
+              return (
+                <ProductModalExpandable
+                  categoryData={category}
+                  basket={basket}
+                  addItemBasketHandler={addItemBasketHandler}
+                />
+              )
+            })}
+          </Stack>
+        )}
       </Content>
     </Layout>
   )

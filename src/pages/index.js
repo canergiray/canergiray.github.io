@@ -9,21 +9,10 @@ import ProductModalExpandable from "../components/CategoryModal"
 import Stack from "@mui/material/Stack"
 import ItemBasket from "../components/ItemBasket"
 
-const IndexPage = () => {
-  const [loading, setLoading] = React.useState(true)
-  const [categories, setCategories] = React.useState([])
-  const [basket, setBasket] = React.useState([])
+import categories from "../../static/categories.json"
 
-  React.useEffect(() => {
-    async function fetchCategories() {
-      const data = await fetch("https://gunbatimicafe.github.io/categories.json", { mode: 'no-cors'}).then(
-        res => res.json()
-      )
-      setCategories(data)
-      setLoading(false)
-    }
-    fetchCategories()
-  }, [])
+const IndexPage = () => {
+  const [basket, setBasket] = React.useState([])
 
   const addItemBasketHandler = item => {
     setBasket([...basket, item])
@@ -40,8 +29,6 @@ const IndexPage = () => {
     setFilter(filter)
   }
 
-  const getHours = () => new Date().getHours()
-
   return (
     <Layout>
       <Seo title="QR Menu" />
@@ -55,24 +42,22 @@ const IndexPage = () => {
           activeFilter={filter}
           filterHandler={filterHandler}
         />
-        {!loading && (
-          <Stack
-            direction="column"
-            spacing={1}
-            style={{ position: "relative", marginTop: 10 }}
-          >
-            {categories.map(category => {
-              if (filter !== "Tümü" && category.category !== filter) return
-              return (
-                <ProductModalExpandable
-                  categoryData={category}
-                  basket={basket}
-                  addItemBasketHandler={addItemBasketHandler}
-                />
-              )
-            })}
-          </Stack>
-        )}
+        <Stack
+          direction="column"
+          spacing={1}
+          style={{ position: "relative", marginTop: 10 }}
+        >
+          {categories.map(category => {
+            if (filter !== "Tümü" && category.category !== filter) return
+            return (
+              <ProductModalExpandable
+                categoryData={category}
+                basket={basket}
+                addItemBasketHandler={addItemBasketHandler}
+              />
+            )
+          })}
+        </Stack>
       </Content>
     </Layout>
   )

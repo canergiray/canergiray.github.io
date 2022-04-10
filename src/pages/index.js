@@ -16,7 +16,7 @@ const IndexPage = () => {
 
   React.useEffect(() => {
     async function fetchCategories() {
-      const data = await fetch("https://gunbatimi.cafe/categories.json").then(
+      const data = await fetch("https://gunbatimicafe.github.io/categories.json").then(
         res => res.json()
       )
       setCategories(data)

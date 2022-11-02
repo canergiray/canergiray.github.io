@@ -36,9 +36,9 @@ const ItemListItem = ({ item, addItemBasketHandler }) => {
           <ItemListDescriptionText>{descriptionText}</ItemListDescriptionText>
         </ItemListTextContent>
       )}
-      <AddToCartButton onClick={() => addItemBasketHandler(item)}>
+      {/* <AddToCartButton onClick={() => addItemBasketHandler(item)}>
         <AddIcon />
-      </AddToCartButton>
+      </AddToCartButton> */}
     </ItemListCard>
   )
 }

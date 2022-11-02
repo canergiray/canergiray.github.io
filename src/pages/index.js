@@ -36,7 +36,7 @@ const IndexPage = () => {
         <GreetingText variant="h5" component="div" sx={{ flexGrow: 1 }}>
           Hoşgeldiniz!
         </GreetingText>
-        <ItemBasket basket={basket} removeBasketHandler={removeBasketHandler} />
+        {/* <ItemBasket basket={basket} removeBasketHandler={removeBasketHandler} /> */}
         <FilterMenu
           filters={filters}
           activeFilter={filter}

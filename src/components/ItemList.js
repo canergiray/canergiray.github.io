@@ -13,13 +13,10 @@ const ItemListItem = ({ item, addItemBasketHandler }) => {
     <ItemListCard>
       {image !== undefined && (
         <ItemListImageContent>
-          <ItemListCardMedia
-            component="img"
-            image={image}
-          />
+          <ItemListCardMedia component="img" image={image} />
           <ItemListImageHeadingText>
             <ItemListHeadingText>{headingText}</ItemListHeadingText>
-            <PriceTag>{price}₺</PriceTag>
+            {/* <PriceTag>{price}₺</PriceTag> */}
           </ItemListImageHeadingText>
           {descriptionText && (
             <ItemListDescriptionText
@@ -34,7 +31,7 @@ const ItemListItem = ({ item, addItemBasketHandler }) => {
         <ItemListTextContent>
           <ItemListHeadingText>
             {headingText}
-            <PriceTag>{price}₺</PriceTag>
+            {/* <PriceTag>{price}₺</PriceTag> */}
           </ItemListHeadingText>
           <ItemListDescriptionText>{descriptionText}</ItemListDescriptionText>
         </ItemListTextContent>
@@ -129,7 +126,7 @@ const ItemListCard = styledComponents(Card)`
     max-height: 100px !important;
   }
   `
-  
+
 const ItemListCardMedia = styledComponents(CardMedia)`
   max-height: 100px !important;
 `
@@ -150,5 +147,5 @@ const AddToCartButton = styledComponents(Button)`
     color: rgba(255, 255, 255, 0.9) !important;
   }
   `
-  
+
 export default ItemList

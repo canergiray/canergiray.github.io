@@ -16,7 +16,7 @@ const ItemListItem = ({ item, addItemBasketHandler }) => {
           <ItemListCardMedia component="img" image={image} />
           <ItemListImageHeadingText>
             <ItemListHeadingText>{headingText}</ItemListHeadingText>
-            {/* <PriceTag>{price}₺</PriceTag> */}
+            <PriceTag>{price}₺</PriceTag>
           </ItemListImageHeadingText>
           {descriptionText && (
             <ItemListDescriptionText
@@ -31,7 +31,7 @@ const ItemListItem = ({ item, addItemBasketHandler }) => {
         <ItemListTextContent>
           <ItemListHeadingText>
             {headingText}
-            {/* <PriceTag>{price}₺</PriceTag> */}
+            <PriceTag>{price}₺</PriceTag>
           </ItemListHeadingText>
           <ItemListDescriptionText>{descriptionText}</ItemListDescriptionText>
         </ItemListTextContent>

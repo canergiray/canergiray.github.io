@@ -825,12 +825,16 @@
     "products": [
       {
         "headingText": "Vanilya - 1 top",
-        "price": ""
+        "price": "25"
       },
       {
-        "headingText": "Ice Latte",
-        "price": ""
-      }
+        "headingText": "Çilek - 1 top",
+        "price": "25"
+      },
+      {
+        "headingText": "Antep fıstıklı - 1 top",
+        "price": "25"
+       }
     ]
   }
 ]

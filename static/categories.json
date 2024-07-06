@@ -7,65 +7,65 @@
       {
         "headingText": "Sade Kahvaltı",
         "descriptionText": "Beyaz Peynir, Kaşar Peyniri, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyaği, Bal, Reçel, Çikolata, Haşlanmış Yumurta, Kruvasan, Fincan Çay",
-        "price": "200"
+        "price": "250"
       },
       {
         "headingText": "Pancake Kahvaltı",
         "descriptionText": "4 adet Pancake, Beyaz Peynir, Kaşar Peyniri, Çeçil Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyaği, Bal, Reçel, Çikolata, Muz, Çilek, Fincan Çay",
-        "price": "225"
+        "price": "275"
       },
       {
         "headingText": "Serpme Kahvaltı",
         "descriptionText": "(EN AZ 2 KİŞİLİK) Beyaz Peynir, Ezine Peyniri, Kaşar Peyniri, Çeçil Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşil-Siyah Zeytin, Terayaği, Kaymak, Bal, İki Çesit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Termos Çay",
-        "price": "450"
+        "price": "550"
       },
       {
         "headingText": "Günbatımı Special",
         "descriptionText": "(4 KİŞİLİK) Beyaz Penir, Ezine Peyniri, Kaşar Peyniri, Çeçil Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşil-Siyah Zeytin, Terayaği, Kaymak, Bal, Iki Çesit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Termos Çay",
-        "price": "1,450"
+        "price": "1,750"
       },
       {
         "image": "../../omlet.JPG",
         "headingText": "Omlet",
-        "price": "85"
+        "price": "125"
       },
       {
         "image": "../../sebzeli-omlet.JPG",
         "headingText": "Karısık Sebzeli Omlet",
-        "price": "95"
+        "price": "145"
       },
       {
         "image": "../../beyaz-omlet.JPG",
         "headingText": "Beyaz Fit Omlet",
-        "price": "110"
+        "price": "190"
       },
       {
         "image": "../../gozleme-tabak.JPG",
         "headingText": "Patates Kaşarli Gözleme",
-        "price": "95"
+        "price": "175"
       },
       {
         "image": "../../sigara-boregi.JPG",
         "headingText": "Sigara Böreği",
-        "price": "95"
+        "price": "175"
       },
       {
         "image": "../../sosis-tabak.JPG",
         "headingText": "Kızarmış Sosis Tabağı",
-        "price": "125"
+        "price": "iptal"
       },
       {
         "image": "../../su-boregi.JPG",
         "headingText": "Su Böreği(Tepsi)",
-        "price": "600"
+        "price": "iptal"
       },
       {
         "headingText": "Bal Kaymak Tabağı",
-        "price": "85"
+        "price": "125"
       },
       {
         "headingText": "Peynir Tabağı",
-        "price": "95"
+        "price": "125"
       },
       {
         "headingText": "Meyve Tabağı",
@@ -73,19 +73,19 @@
       },
       {
         "headingText": "Menemen",
-        "price": "95"
-      },
-      {
-        "headingText": "Sucuklu Yumurta",
-        "price": "125"
-      },
-      {
-        "headingText": "Sucuk Tava",
         "price": "145"
       },
       {
-        "headingText": "Kuymak",
+        "headingText": "Sucuklu Yumurta",
+        "price": "145"
+      },
+      {
+        "headingText": "Sucuk Tava",
         "price": "175"
+      },
+      {
+        "headingText": "Kuymak",
+        "price": "225"
       },
       {
         "headingText": "Pankek",
@@ -93,11 +93,11 @@
       },
       {
         "headingText": "Kaşarlı Gözleme",
-        "price": "85"
+        "price": "125"
       },
       {
         "headingText": "Patatesli Gözleme",
-        "price": "95"
+        "price": "125"
       },
       {
         "headingText": "Parmak Patates",
@@ -109,7 +109,7 @@
       },
       {
         "headingText": "Soğan Halkası(İthal)",
-        "price": "105"
+        "price": "125"
       }
     ]
   },
@@ -122,7 +122,7 @@
         "image": "../../tost.JPG",
         "headingText": "Günbatımı Special Tost",
         "descriptionText": "Karısık Tost, Patetes Kızartması, İthal Soğan Halkası, Yeşillik, Çay veya Ayran",
-        "price": "145"
+        "price": "165"
       },
       {
         "image": "../../tost-ayvalik.JPG",
@@ -134,27 +134,27 @@
         "image": "../../tost-light.JPG",
         "headingText": "Light Tost",
         "descriptionText": "Kaşar Peynirli Tost, Yeşillik",
-        "price": "110"
+        "price": "125"
       },
       {
         "headingText": "Sucuklu Tost",
         "descriptionText": "Patates Kızartması, Yeşillik",
-        "price": "95"
+        "price": "125"
       },
       {
         "headingText": "Kaşarlı Tost",
         "descriptionText": "Patates Kızartması, Yeşillik",
-        "price": "95"
+        "price": "125"
       },
       {
         "headingText": "Karışık Tost",
         "descriptionText": "Patates Kızartması, Yeşillik",
-        "price": "110"
+        "price": "135"
       },
       {
         "headingText": "Duble Tost",
         "descriptionText": "Patates Kızartması, Yeşillik",
-        "price": "125"
+        "price": "135"
       },
       {
         "headingText": "Patatesli Sandwich",
@@ -187,18 +187,18 @@
         "image": "../../burger.JPG",
         "headingText": "Günbatımı Special Burger",
         "descriptionText": "Duble Burger, Cheddar Peyniri, Marul, Domates, Soğan, Kızarmış Patates, Soğan Halkası, Yeşillik",
-        "price": "175"
+        "price": "225"
       },
       {
         "image": "../../burger-cheese.JPG",
         "headingText": "Cheese Burger",
         "descriptionText": "Marul, Domates, Turşu, Ketçap, Mayonez, Cheddar Peyniri, Kızarmış Patates, Soğan Halkası, Yeşillik",
-        "price": "155"
+        "price": "205"
       },
       {
         "headingText": "Hamburger",
         "descriptionText": "Marul, Domates, Turşu, Ketçap, Mayonez, Kızarmış Patates, Soğan Halkası, Yeşillik",
-        "price": "135"
+        "price": "145"
       },
       {
         "headingText": "Piliç Burger",
@@ -215,37 +215,37 @@
       {
         "headingText": "Margherita Pizza",
         "descriptionText": "Domates Sos, Fesleğen, Mozarella Peyniri",
-        "price": "175"
+        "price": "250"
       },
       {
         "headingText": "Pizza de Luxe",
         "descriptionText": "Domates Sos, Sucuk, Salam, Yeşil Biber, Siyah Zeytin",
-        "price": "200"
+        "price": "275"
       },
       {
         "headingText": "Pizza Jamaican",
         "descriptionText": "Domates Sos, Sosis, Mozarella Peyniri",
-        "price": "175"
+        "price": "255"
       },
       {
         "headingText": "Pizza Queen",
         "descriptionText": "Domates Sos, Sucuk, Mantar, Mozarella Peyniri, Kekik",
-        "price": "175"
+        "price": "255"
       },
       {
         "headingText": "Ton Balıklı Pizza",
         "descriptionText": "Domates Sos, Ton Balığı, Mısır, Siyah Zeytin",
-        "price": "245"
+        "price": "275"
       },
       {
         "headingText": "Vejeteryan Pizza",
         "descriptionText": "Domates Sos, Mevsim Sebzeleri, Mozarella Peyniri",
-        "price": "175"
+        "price": "275"
       },
       {
         "headingText": "Günbatimi Pizza",
         "descriptionText": "Domates Sos, Dana Jambon, Sucuk, Yeşil Biber, Mantar, Siyah Zeytin, Kekik, Mozarella Peyniri",
-        "price": "225"
+        "price": "315"
       }
     ]
   },
@@ -258,23 +258,23 @@
         "image": "../../durum.JPG",
         "headingText": "Etli Beyti Dürüm",
         "descriptionText": "Dana Eti, Biber, Mantar, Domates, Yoğurt, Izgara Domates ve Biber",
-        "price": "275"
+        "price": "325"
       },
       {
         "image": "../../durum-tavuk.JPG",
         "headingText": "Special Tavuk Dürüm",
         "descriptionText": "Tavuk Eti, Biber, Mantar, Domates, Patates Kızartması, Soğan Halkası",
-        "price": "225"
+        "price": "275"
       },
       {
         "headingText": "Special Etli Dürüm",
         "descriptionText": "Dana Eti, Biber, Mantar, Domates, Patates Kızartması, Soğan Halkası",
-        "price": "250"
+        "price": "290"
       },
       {
         "headingText": "Tavuk Etli Beyti Dürüm",
         "descriptionText": "Tavuk Eti, Biber, Mantar, Domates, Yoğurt, Izgara Domates ve Biber",
-        "price": "225"
+        "price": "275"
       }
     ]
   },
@@ -287,53 +287,53 @@
         "image": "../../tavuk-kori.JPG",
         "headingText": "Köri Soslu Tavuk",
         "descriptionText": "Tavuk, Biber, Mantar, Makarna, Yeşillik",
-        "price": "225"
+        "price": "275"
       },
       {
         "image": "../../tavuk-mushroom.JPG",
         "headingText": "Chicken Mushroom",
         "descriptionText": "Izgara Tavuk, Eritilmiş Kaşar Peyniri, Soya soslu Kremalı Mantar, Makarna, Yeşillik",
-        "price": "225"
+        "price": "275"
       },
       {
         "image": "../../tavuk-pesto.JPG",
         "headingText": "Pesto Soslu Tavuk",
         "descriptionText": "Tavuk, Biber, Mantar, Pesto Sos, Makarna, Yeşillik",
-        "price": "225"
+        "price": "275"
       },
       {
         "image": "../../tavuk-soya.JPG",
         "headingText": "Soya Soslu Tavuk",
         "descriptionText": "Tavuk, Biber, Soya Soslu Makarna, Yeşillik",
-        "price": "225"
+        "price": "275"
       },
       {
         "image": "../../et-sinitzel.JPG",
         "headingText": "Et Şinitzel",
         "descriptionText": "Fileto Et, Baby Patates, Yeşillik",
-        "price": "250"
+        "price": "iptal"
       },
       {
         "image": "../../tavuk-sinitzel.JPG",
         "headingText": "Tavuk Şinitzel",
         "descriptionText": "Fileto Tavuk, Baby Patates, Yeşillik",
-        "price": "225"
+        "price": "290"
       },
       {
         "image": "../../fajita-combo.JPG",
         "headingText": "Combo Fajita",
         "descriptionText": "Jülyen Et, Tavuk, Biber, Patlıcan, Kabak, Soğan, Soya Sos",
-        "price": "275"
+        "price": "325"
       },
       {
         "headingText": "Etli Fajita",
         "descriptionText": "Jülyen Et, Biber, Patlıcan, Kabak, Soğan, Soya Sos",
-        "price": "250"
+        "price": "350"
       },
       {
         "headingText": "Tavuklu Fajita",
         "descriptionText": "Tavuk, Biber, Patlıcan, Kabak, Soğan, Soya Sos",
-        "price": "250'"
+        "price": "275'"
       }
     ]
   },
@@ -346,37 +346,37 @@
         "image": "../../kofte-izgara.JPG",
         "headingText": "Izgara Köfte",
         "descriptionText": "5 Adet Kasap Köfte, Baby, Patates, Bulgur Pilavı, Izgara Biber ve Domates, Yeşillik",
-        "price": "225"
+        "price": "275"
       },
       {
         "image": "../../izgara.JPG",
         "headingText": "Karısık Izgara Tabağı",
         "descriptionText": "Kasap Köfte, Çöp Şiş, Tavuk Şiş, Sucuk, Baby Patates, Bulgur Pilavı, Izgara Biber ve Domates, Yeşillik",
-        "price": "280"
+        "price": "325"
       },
       {
         "image": "../../tavuk-izgara-kulbasti.JPG",
         "headingText": "Izgara Tavuk Külbastı",
         "descriptionText": "Tavuk Külbastı, Bulgur Pilavı, Baby Patates, Izgara Biber ve Domates, Yeşillik",
-        "price": "225"
+        "price": "275"
       },
       {
         "image": "../../tavuk-izgara-pesto.JPG",
         "headingText": "Izgara Pesto Soslu Piliç",
         "descriptionText": "Izgara Piliç, Pesto Sos, Cheddar Peyniri, Bulgur Pilavı, Baby Patates, Izgara Biber ve Domates, Yeşillik",
-        "price": "225"
+        "price": "290"
       },
       {
         "image": "../../tavuk-sis.JPG",
         "headingText": "Izgara Tavuk Şiş",
         "descriptionText": "2 Adet Tavuk Şiş, Baby Patates, Bulgur Pilavı, Izgara Biber ve Domates, Yeşillik",
-        "price": "175"
+        "price": "250"
       },
       {
         "image": "../../izgara-pastirma.JPG",
         "headingText": "Pastırmalı Kaşarlı Köfte",
         "descriptionText": "2 Adet Kaşarlı Köfte, Pastırma, Tırnak Pide, Soğan, Domates Sos, Yoğurt, Izgara Biber ve Domates",
-        "price": "250"
+        "price": "iptal"
       }
     ]
   },
@@ -389,45 +389,45 @@
         "image": "../../makarna.JPG",
         "headingText": "Penne Pesto Porcini",
         "descriptionText": "Penne Makarna, Tavuk, Mantar, Krema, Pesto Sos",
-        "price": "175"
+        "price": "255"
       },
       {
         "image": "../../makarna-fettucine.JPG",
         "headingText": "Fettucine",
         "descriptionText": "Fettucine Makarna, Tavuk, Mantar, Fesleğen, Parmesan Peyniri",
-        "price": "175"
+        "price": "255"
       },
       {
         "image": "../../makarna-kori-penne.JPG",
         "headingText": "Kori Soslu Penne Makarna",
         "descriptionText": "Penne Makarna, Krema, Kori Sos, Parmesan Peyniri",
-        "price": "150"
+        "price": "225"
       },
       {
         "image": "../../makarna-bolonez.JPG",
         "headingText": "Spagetti Bolonez",
         "descriptionText": "Spagetti Makarna, Domates Soslu Dana Kıyma, Parmesan Peyniri",
-        "price": "225"
+        "price": "275"
       },
       {
         "image": "../../manti.JPG",
         "headingText": "Mantı",
-        "price": "175"
+        "price": "225"
       },
       {
         "image": "../../manti-citir.JPG",
         "headingText": "Çıtır Mantı",
-        "price": "250"
+        "price": "iptal"
       },
       {
         "headingText": "Penne Arabiata",
         "descriptionText": "Penne Makarna, Acı Sos, Parmesan, Fesleğen",
-        "price": "150"
+        "price": "275"
       },
       {
         "headingText": "Chicken Alfredo Tagliatelle",
         "descriptionText": "Taglietelle Makarna, Izgara Tavuk, Alfredo Sos, Parmesan Peyniri",
-        "price": "225"
+        "price": "iptal"
       }
     ]
   },
@@ -440,37 +440,37 @@
         "image": "../../salata-beyaz-peynir.JPG",
         "headingText": "Beyaz Peynirli Salata",
         "descriptionText": "Yeşillik, Salatalık, Domates, Siyah Zeytin, Beyaz Peynir",
-        "price": "175"
+        "price": "225"
       },
       {
         "image": "../../salata-ton.JPG",
         "headingText": "Ton Balıklı Salata",
         "descriptionText": "Yeşillik, Salatalık, Domates, Mısır, Siyah Zeytin, Ton Balığı",
-        "price": "225"
+        "price": "275"
       },
       {
         "image": "../../salata-bugday.JPG",
         "headingText": "Buğday Salata",
         "descriptionText": "Yeşillik, Salatalık, Domates, Fındık Turp, Siyah Zeytin, Buğday",
-        "price": "225"
+        "price": "iptal"
       },
       {
         "image": "../../salata-kinoa.JPG",
         "headingText": "Kinoa Salata",
         "descriptionText": "Yeşillik, Domates, Ceviz, Badem, Avokado, Kinoa",
-        "price": "225"
+        "price": "iptal"
       },
       {
         "image": "../../salata-sezar.JPG",
         "headingText": "Tavuklu Sezar Salata",
         "descriptionText": "Yeşillik, Salatalık, Kruton Sezar Sos, Izgara Tavuk",
-        "price": "225"
+        "price": "255"
       },
       {
         "image": "../../salata-izgara.JPG",
         "headingText": "Izgara Hellim Salata",
         "descriptionText": "Yeşillik, Salatalık, Domates, Mısır, Hellim Peyniri",
-        "price": "225"
+        "price": "275"
       }
     ]
   },
@@ -481,67 +481,67 @@
     "products": [
       {
         "headingText": "Magnolia",
-        "price": "75"
+        "price": "110"
       },
       {
         "headingText": "Supangle",
-        "price": "75"
+        "price": "110"
       },
       {
         "headingText": "Profiterol",
-        "price": "75"
+        "price": "110"
       },
       {
         "headingText": "Tiramisu",
-        "price": "75"
+        "price": "110"
       },
       {
         "headingText": "Truf Çikolatalı Pasta",
-        "price": "120"
+        "price": "125"
       },
       {
         "headingText": "Mozaik Pasta",
-        "price": "120"
+        "price": "150"
       },
       {
         "headingText": "Cheesecake",
-        "price": "95"
+        "price": "150"
       },
       {
         "headingText": "Mois Pasta",
-        "price": "125"
+        "price": "175"
       },
       {
         "headingText": "Ibiza",
-        "price": "125"
+        "price": "250"
       },
       {
         "headingText": "Fıstık Rüyası",
-        "price": "95"
+        "price": "175"
       },
       {
         "headingText": "Malaga",
-        "price": "125"
+        "price": "250"
       },
       {
         "headingText": "Bella Vista",
-        "price": "75"
+        "price": "150"
       },
       {
         "headingText": "Trileçe",
-        "price": "75"
+        "price": "iptal"
       },
       {
         "headingText": "Sufle",
-        "price": "95"
+        "price": "150"
       },
       {
         "headingText": "Budapeşte",
-        "price": "125"
+        "price": "250"
       },
       {
         "headingText": "Noel Sarma",
-        "price": "125"
+        "price": "250"
       }
     ]
   },
@@ -583,19 +583,19 @@
     "products": [
       {
         "headingText": "Çay",
-        "price": "19"
+        "price": "25"
       },
       {
         "headingText": "Meyve Çaylari",
-        "price": "19"
+        "price": "25"
       },
       {
         "headingText": "Double Çay",
-        "price": "35"
+        "price": "40"
       },
       {
         "headingText": "Bitki Çayları",
-        "price": "55"
+        "price": "40"
       },
       {
         "headingText": "Türk Kahvesi",
@@ -682,15 +682,15 @@
       },
       {
         "headingText": "Çilekli Limonata",
-        "price": "90"
+        "price": "120"
       },
       {
         "headingText": "Kivili Limonata",
-        "price": "90"
+        "price": "120"
       },
       {
         "headingText": "Yeşil Elmalı Limonata",
-        "price": "90"
+        "price": "120"
       },
       {
         "headingText": "Red Bull",
@@ -721,23 +721,23 @@
     "products": [
       {
         "headingText": "Çilekli Milkshake",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Oreolu Milkshake",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Çikolatalı Milkshake",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Bal Bademli Milkshake",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Muzlu Milkshake",
-        "price": "90"
+        "price": "125"
       }
     ]
   },
@@ -748,35 +748,35 @@
     "products": [
       {
         "headingText": "Çilekli Frozen",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Yeşil Elmalı Frozen",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Limonlu Frozen",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Kivili Frozen",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Karpuzlu Frozen",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Orman Meyveli Frozen",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Ananaslı Frozen",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Çarkıfelek Frozen",
-        "price": "90"
+        "price": "125"
       }
     ]
   },
@@ -806,15 +806,15 @@
     "products": [
       {
         "headingText": "Ice Latte",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Ice Mocha",
-        "price": "90"
+        "price": "125"
       },
       {
         "headingText": "Ice Americano",
-        "price": "90"
+        "price": "125"
       }
     ]
   },

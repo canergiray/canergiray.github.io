@@ -50,16 +50,6 @@
         "price": "175"
       },
       {
-        "image": "../../sosis-tabak.JPG",
-        "headingText": "Kızarmış Sosis Tabağı",
-        "price": "iptal"
-      },
-      {
-        "image": "../../su-boregi.JPG",
-        "headingText": "Su Böreği(Tepsi)",
-        "price": "iptal"
-      },
-      {
         "headingText": "Bal Kaymak Tabağı",
         "price": "125"
       },
@@ -308,12 +298,6 @@
         "price": "275"
       },
       {
-        "image": "../../et-sinitzel.JPG",
-        "headingText": "Et Şinitzel",
-        "descriptionText": "Fileto Et, Baby Patates, Yeşillik",
-        "price": "iptal"
-      },
-      {
         "image": "../../tavuk-sinitzel.JPG",
         "headingText": "Tavuk Şinitzel",
         "descriptionText": "Fileto Tavuk, Baby Patates, Yeşillik",
@@ -371,12 +355,6 @@
         "headingText": "Izgara Tavuk Şiş",
         "descriptionText": "2 Adet Tavuk Şiş, Baby Patates, Bulgur Pilavı, Izgara Biber ve Domates, Yeşillik",
         "price": "250"
-      },
-      {
-        "image": "../../izgara-pastirma.JPG",
-        "headingText": "Pastırmalı Kaşarlı Köfte",
-        "descriptionText": "2 Adet Kaşarlı Köfte, Pastırma, Tırnak Pide, Soğan, Domates Sos, Yoğurt, Izgara Biber ve Domates",
-        "price": "iptal"
       }
     ]
   },
@@ -415,19 +393,9 @@
         "price": "225"
       },
       {
-        "image": "../../manti-citir.JPG",
-        "headingText": "Çıtır Mantı",
-        "price": "iptal"
-      },
-      {
         "headingText": "Penne Arabiata",
         "descriptionText": "Penne Makarna, Acı Sos, Parmesan, Fesleğen",
         "price": "275"
-      },
-      {
-        "headingText": "Chicken Alfredo Tagliatelle",
-        "descriptionText": "Taglietelle Makarna, Izgara Tavuk, Alfredo Sos, Parmesan Peyniri",
-        "price": "iptal"
       }
     ]
   },
@@ -447,18 +415,6 @@
         "headingText": "Ton Balıklı Salata",
         "descriptionText": "Yeşillik, Salatalık, Domates, Mısır, Siyah Zeytin, Ton Balığı",
         "price": "275"
-      },
-      {
-        "image": "../../salata-bugday.JPG",
-        "headingText": "Buğday Salata",
-        "descriptionText": "Yeşillik, Salatalık, Domates, Fındık Turp, Siyah Zeytin, Buğday",
-        "price": "iptal"
-      },
-      {
-        "image": "../../salata-kinoa.JPG",
-        "headingText": "Kinoa Salata",
-        "descriptionText": "Yeşillik, Domates, Ceviz, Badem, Avokado, Kinoa",
-        "price": "iptal"
       },
       {
         "image": "../../salata-sezar.JPG",
@@ -526,10 +482,6 @@
       {
         "headingText": "Bella Vista",
         "price": "150"
-      },
-      {
-        "headingText": "Trileçe",
-        "price": "iptal"
       },
       {
         "headingText": "Sufle",

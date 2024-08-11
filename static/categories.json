@@ -6,22 +6,22 @@
     "products": [
       {
         "headingText": "Sade Kahvaltı",
-        "descriptionText": "Beyaz Peynir, Kaşar Peyniri, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyaği, Bal, Reçel, Çikolata, Haşlanmış Yumurta, Kruvasan, Fincan Çay",
+        "descriptionText": "Sade Kahvaltı : Beyaz Peynir, Ezine Peyniri, Top peynir, Çubuk Peynir, Domates, Salatalık, Yeşillik, Siyah-Yeşil Zeytin, Tereyağı, Bal, Reçel, Çikolata, Haşlanmış yumurta, Kruvasan, Fincan Çay.",
         "price": "250"
       },
       {
         "headingText": "Pancake Kahvaltı",
-        "descriptionText": "4 adet Pancake, Beyaz Peynir, Kaşar Peyniri, Çeçil Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyaği, Bal, Reçel, Çikolata, Muz, Çilek, Fincan Çay",
+        "descriptionText": "Pancake Kahvaltı : 4 Adet Pancake, Beyaz peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Bal, Reçel, Çikolata, Çilek Veya Muz, Fincan Çay.",
         "price": "275"
       },
       {
         "headingText": "Serpme Kahvaltı",
-        "descriptionText": "(EN AZ 2 KİŞİLİK) Beyaz Peynir, Ezine Peyniri, Kaşar Peyniri, Çeçil Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşil-Siyah Zeytin, Terayaği, Kaymak, Bal, İki Çesit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Termos Çay",
+        "descriptionText": "(EN AZ 2 KİŞİLİK) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Termos Çay.",
         "price": "550"
       },
       {
         "headingText": "Günbatımı Special",
-        "descriptionText": "(4 KİŞİLİK) Beyaz Penir, Ezine Peyniri, Kaşar Peyniri, Çeçil Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşil-Siyah Zeytin, Terayaği, Kaymak, Bal, Iki Çesit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Termos Çay",
+        "descriptionText": "(4 KİŞİLİK) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşillik, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Pancake, Kuymak, Portakal Suyu, Termos Çay.",
         "price": "1,750"
       },
       {

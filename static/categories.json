@@ -7,22 +7,22 @@
       {
         "headingText": "Sade Kahvaltı",
         "descriptionText": "Sade Kahvaltı : Beyaz Peynir, Ezine Peyniri, Top peynir, Çubuk Peynir, Domates, Salatalık, Yeşillik, Siyah-Yeşil Zeytin, Tereyağı, Bal, Reçel, Çikolata, Haşlanmış yumurta, Kruvasan, Fincan Çay.",
-        "price": "300"
+        "price": "350"
       },
       {
         "headingText": "Pancake Kahvaltı",
         "descriptionText": "Pancake Kahvaltı : 4 Adet Pancake, Beyaz peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Bal, Reçel, Çikolata, Çilek Veya Muz, Fincan Çay.",
-        "price": "325"
+        "price": "375"
       },
       {
         "headingText": "Serpme Kahvaltı",
         "descriptionText": "(EN AZ 2 KİŞİLİK) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Termos Çay.",
-        "price": "700"
+        "price": "800"
       },
       {
         "headingText": "Günbatımı Special",
         "descriptionText": "(4 KİŞİLİK) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşillik, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Pancake, Kuymak, Portakal Suyu, Termos Çay.",
-        "price": "2,500"
+        "price": "3.200"
       },
       {
         "image": "../../omlet.JPG",

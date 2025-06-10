@@ -40,6 +40,11 @@
         "price": "-"
       },
       {
+        "image": "../../avocado-omelette.jpeg",
+        "headingText": "Avokadolu Omlet",
+        "price": "-"
+      },
+      {
         "image": "../../gozleme-tabak.JPG",
         "headingText": "Patates Kaşarli Gözleme",
         "price": "275"

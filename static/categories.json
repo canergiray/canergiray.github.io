@@ -99,11 +99,13 @@
       "headingText": "Elma Dilim Patates",
       "price": "150"
     },
-    {
-      "headingText": "Soğan Halkası(İthal)",
-      "price": "225"
-    },
-    {
+        {
+        "headingText": "Soğan Halkası(İthal)",
+        "price": "225"
+      }
+    ]
+  },
+  {
     "image": "../../tostlar.JPG",
     "title": "Tostlar ve Sandwichler",
     "category": "Yemekler",

@@ -22,7 +22,7 @@
       {
         "headingText": "Günbatımı Special",
         "descriptionText": "(4 KİŞİLİK) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşillik, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Pancake, Kuymak, Portakal Suyu, Termos Çay.",
-        "price": "3.200"
+        "price": "3200"
       },
       {
         "image": "../../omlet.JPG",
@@ -31,14 +31,18 @@
       },
       {
         "image": "../../sebzeli-omlet.JPG",
-        "headingText": "Karısık Sebzeli Omlet",
+        "headingText": "Karışık Sebzeli Omlet",
         "price": "250"
       },
-      
-      "image": "../../gozleme-tabak.JPG",
-        "headingText": "Patates Kaşarli Gözleme",
+      {
+        "image": "../../gozleme-tabak.JPG",
+        "headingText": "Patates Kaşarlı Gözleme",
         "price": "275"
-      },
+      }
+    ]
+  }
+]
+
       {
         "image": "../../sigara-boregi.JPG",
         "headingText": "Sigara Böreği",

@@ -191,6 +191,11 @@
         "price": "350"
       },
       {
+        "headingText": "Çocuk Burger Menü",
+        "descriptionText": "Cheddar Peyniri, Marul, Domates, Kızarmış Patates, Soğan Halkası, Yeşillik, Ayran veya Meyve Suyu",
+        "price": "300"
+      },
+      {
         "headingText": "Hamburger",
         "descriptionText": "Marul, Domates, Turşu, Ketçap, Mayonez, Kızarmış Patates, Soğan Halkası, Yeşillik",
         "price": "275"
@@ -313,6 +318,11 @@
         "headingText": "Combo Fajita",
         "descriptionText": "Jülyen Et, Tavuk, Biber, Patlıcan, Kabak, Soğan, Soya Sos",
         "price": "450"
+      },
+      {
+        "headingText": "Chili Soslu Tavuk",
+        "descriptionText": "Tavuk, Biber, Mantar, Chili Sos, Makarna, Yeşillik",
+        "price": "375"
       },
       {
         "headingText": "Etli Fajita",

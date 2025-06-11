@@ -34,24 +34,22 @@
         "headingText": "Karısık Sebzeli Omlet",
         "price": "250"
       },
-      {
-        "image": "../../beyaz-omlet.JPG",
-        "headingText": "Beyaz Fit Omlet",
-        "price": "-"
-      },
-      {
-        "image": "../../avocado-omelette.jpeg",
-        "headingText": "Avokadolu Omlet",
-        "price": "-"
-      },
-      {
-        "image": "../../gozleme-tabak.JPG",
+      
+      "image": "../../gozleme-tabak.JPG",
         "headingText": "Patates Kaşarli Gözleme",
         "price": "275"
       },
       {
         "image": "../../sigara-boregi.JPG",
         "headingText": "Sigara Böreği",
+        "price": "275"
+      },
+       {
+        "headingText": "Avokadolu Omlet",
+        "price": "275"
+      },
+      {
+        "headingText": "Kuşkonmazlı Omlet",
         "price": "275"
       },
       {
@@ -191,6 +189,11 @@
         "price": "350"
       },
       {
+        "headingText": "Çocuk Burger Menü",
+        "descriptionText": "Cheddar Peyniri, Marul, Domates, Kızarmış Patates, Soğan Halkası, Yeşillik, Ayran veya Meyve Suyu",
+        "price": "300"
+      },
+      {
         "headingText": "Hamburger",
         "descriptionText": "Marul, Domates, Turşu, Ketçap, Mayonez, Kızarmış Patates, Soğan Halkası, Yeşillik",
         "price": "275"
@@ -323,7 +326,12 @@
         "headingText": "Tavuklu Fajita",
         "descriptionText": "Tavuk, Biber, Patlıcan, Kabak, Soğan, Soya Sos",
         "price": "375'"
-      }
+      },
+      {
+        "headingText": "Chili Soslu Tavuk",
+        "descriptionText": "Tavuk, Biber, Mantar, Chili Sos, Makarna, Yeşillik",
+        "price": "375"
+      },
     ]
   },
   {

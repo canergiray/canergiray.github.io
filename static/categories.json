@@ -21,7 +21,7 @@
     {
       "headingText": "Günbatımı Special",
       "descriptionText": "(4 KİŞİLİK) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşillik, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Pancake, Kuymak, Portakal Suyu, Termos Çay.",
-      "price": "3,200"
+      "price": "3200"
     },
     {
       "image": "../../omlet.JPG",
@@ -99,12 +99,12 @@
       "headingText": "Elma Dilim Patates",
       "price": "150"
     },
-        {
-        "headingText": "Soğan Halkası(İthal)",
-        "price": "225"
-      }
-    ]
-  },
+    {
+      "headingText": "Soğan Halkası(İthal)",
+      "price": "225"
+    }
+  ]
+  }
   {
     "image": "../../tostlar.JPG",
     "title": "Tostlar ve Sandwichler",

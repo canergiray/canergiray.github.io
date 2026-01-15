@@ -3,7 +3,6 @@
     "image": "../../kahvalti.JPG",
     "title": "Kahvaltılar",
     "category": "Yemekler",
-    "warningNote": "Not: Serpme Kahvaltılarda Ekstra Servis Açılmamaktadır. Anlayışınız İçin Teşekkür Ederiz.",
     "products": [
       {
         "headingText": "Sade Kahvaltı",
@@ -13,12 +12,12 @@
       {
         "headingText": "Pancake Kahvaltı",
         "descriptionText": "Pancake Kahvaltı : 4 Adet Pancake, Beyaz peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Bal, Reçel, Çikolata, Çilek Veya Muz, Fincan Çay.",
-        "warningNote": "Not: Serpme Kahvaltılarda Ekstra Servis Açılmamaktadır. Anlayışınız İçin Teşekkür Ederiz.",
         "price": "490"
       },
       {
         "headingText": "Serpme Kahvaltı",
         "descriptionText": "(Kişi Başı Sipariş alınır) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Termos Çay.",
+        "warningNote": "Not: Serpme Kahvaltılarda Ekstra Servis Açılmamaktadır. Anlayışınız İçin Teşekkür Ederiz.",
         "price": "kişi başı 560"
       },
       {

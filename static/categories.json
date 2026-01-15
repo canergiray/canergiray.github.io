@@ -3,6 +3,7 @@
     "image": "../../kahvalti.JPG",
     "title": "Kahvaltılar",
     "category": "Yemekler",
+    "warningNote": "Not: Serpme Kahvaltılarda Ekstra Servis Açılmamaktadır. Anlayışınız İçin Teşekkür Ederiz.",
     "products": [
       {
         "headingText": "Sade Kahvaltı",
@@ -817,15 +818,15 @@
     "products": [
       {
         "headingText": "Vanilya - 1 top",
-        "price": "35"
+        "price": "75"
       },
       {
         "headingText": "Çilek - 1 top",
-        "price": "35"
+        "price": "75"
       },
       {
         "headingText": "Antep fıstıklı - 1 top",
-        "price": "35"
+        "price": "75"
        }
     ]
   }

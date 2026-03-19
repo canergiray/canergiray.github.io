@@ -10,31 +10,32 @@
       {
         "headingText": "Sade Kahvaltı",
         "descriptionText": "Sade Kahvaltı : Beyaz Peynir, Ezine Peyniri, Top peynir, Çubuk Peynir, Domates, Salatalık, Yeşillik, Siyah-Yeşil Zeytin, Tereyağı, Bal, Reçel, Çikolata, Haşlanmış yumurta, Kruvasan, Fincan Çay.",
-        "price": "575"
+        "price": "620"
       },
       {
         "headingText": "Pancake Kahvaltı",
         "descriptionText": "Pancake Kahvaltı : 4 Adet Pancake, Beyaz peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Bal, Reçel, Çikolata, Çilek Veya Muz, Fincan Çay.",
-        "price": "490"
+        "price": "530"
       },
       {
         "headingText": "Serpme Kahvaltı",
         "descriptionText": "(Kişi Başı Sipariş alınır) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Termos Çay.",
         "warningNote": "Not: Serpme Kahvaltılarda Ekstra Servis Açılmamaktadır. Anlayışınız İçin Teşekkür Ederiz.",
-        "price": "kişi başı 560"
+        "price": "kişi başı 620"
       },
       {
         "headingText": "Günbatımı Special",
         "descriptionText": "(Kişi Başı Sipariş alınır) Beyaz Peynir, Ezine Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Yeşillik, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, İki Çeşit Reçel, Çikolata, Kızarmış Patates, Sigara Böreği, Sosis, Menemen, Omlet, Gözleme, Pancake, Kuymak, Portakal Suyu, Termos Çay.",
-        "price": "kişi başı 900"
+        "price": "kişi başı 1200"
       },
       {
-        "headingText": "Kuşkanmazlı Omlet",
-        "price": "390"
+        "headingText": "Soğuk Servis",
+        "descriptionText": "Beyaz Peynir, Ezine Peyniri, Çeçil Peynir, Top Peynir, Çubuk Peynir, Domates, Salatalık, Siyah-Yeşil Zeytin, Tereyağı, Kaymak, Bal, Reçel, Çikolata",
+        "price": "350"
       },
       {
         "headingText": "Kruvasan",
-        "price": "99"
+        "price": "125"
       },
       {
         "image": "../../omlet.JPG",
@@ -54,7 +55,7 @@
       {
         "image": "../../avocado-omelette.jpeg",
         "headingText": "Avokadolu Omlet",
-        "price": "320"
+        "price": "350"
       },
       {
         "image": "../../gozleme-tabak.JPG",
@@ -200,7 +201,7 @@
         "image": "../../burger-cheese.JPG",
         "headingText": "Cheese Burger",
         "descriptionText": "Marul, Domates, Turşu, Ketçap, Mayonez, Cheddar Peyniri, Kızarmış Patates, Soğan Halkası, Yeşillik",
-        "price": "350"
+        "price": "375"
       },
       {
         "headingText": "Çocuk Burger Menü",
@@ -227,22 +228,7 @@
       {
         "headingText": "Margherita Pizza",
         "descriptionText": "Domates Sos, Fesleğen, Mozarella Peyniri",
-        "price": "385"
-      },
-      {
-        "headingText": "Pizza de Luxe",
-        "descriptionText": "Domates Sos, Sucuk, Salam, Yeşil Biber, Siyah Zeytin",
-        "price": "395"
-      },
-      {
-        "headingText": "Pizza Jamaican",
-        "descriptionText": "Domates Sos, Sosis, Mozarella Peyniri",
-        "price": "375"
-      },
-      {
-        "headingText": "Pizza Queen",
-        "descriptionText": "Domates Sos, Sucuk, Mantar, Mozarella Peyniri, Kekik",
-        "price": "395"
+        "price": "415"
       },
       {
         "headingText": "Ton Balıklı Pizza",
@@ -252,7 +238,7 @@
       {
         "headingText": "Vejeteryan Pizza",
         "descriptionText": "Domates Sos, Mevsim Sebzeleri, Mozarella Peyniri",
-        "price": "385"
+        "price": "435"
       },
       {
         "headingText": "Günbatimi Pizza",
@@ -562,11 +548,11 @@
     "products": [
       {
         "headingText": "Çay",
-        "price": "45"
+        "price": "55"
       },
       {
         "headingText": "Meyve Çaylari",
-        "price": "45"
+        "price": "55"
       },
       {
         "headingText": "Double Çay",
@@ -574,23 +560,23 @@
       },
       {
         "headingText": "Bitki Çayları",
-        "price": "95"
-      },
-      {
-        "headingText": "Türk Kahvesi",
-        "price": "99"
-      },
-      {
-        "headingText": "Espresso",
-        "price": "95"
-      },
-      {
-        "headingText": "Espresso Americano",
         "price": "125"
       },
       {
+        "headingText": "Türk Kahvesi",
+        "price": "125"
+      },
+      {
+        "headingText": "Espresso",
+        "price": "125"
+      },
+      {
+        "headingText": "Espresso Americano",
+        "price": "120"
+      },
+      {
         "headingText": "Nescafe",
-        "price": "99"
+        "price": "165"
       },
       {
         "headingText": "Filtre Kahve",
@@ -598,39 +584,39 @@
       },
       {
         "headingText": "Sütlü Filtre Kahve",
-        "price": "125"
+        "price": "165"
       },
       {
         "headingText": "Caffé Latte",
-        "price": "145"
+        "price": "190"
       },
       {
         "headingText": "Cappucino",
-        "price": "145"
+        "price": "170"
       },
       {
         "headingText": "Caffé Macchiato",
-        "price": "145"
+        "price": "185"
       },
       {
         "headingText": "Caffé Mocha",
-        "price": "145"
+        "price": "185"
       },
       {
         "headingText": "Salep",
-        "price": "145"
+        "price": "195"
       },
       {
         "headingText": "Hot Chocolate",
-        "price": "170"
+        "price": "185"
       },
       {
         "headingText": "White Chocolate",
-        "price": "170"
+        "price": "185"
       },
       {
         "headingText": "Süt",
-        "price": "95"
+        "price": "150"
       }
     ]
   },

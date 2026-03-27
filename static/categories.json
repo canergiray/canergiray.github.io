@@ -105,7 +105,7 @@
       },
       {
         "headingText": "Patatesli Gözleme",
-        "price": "220"
+        "price": "250"
       },
       {
         "headingText": "Parmak Patates",
@@ -315,7 +315,7 @@
         "image": "../../fajita-combo.JPG",
         "headingText": "Combo Fajita",
         "descriptionText": "Jülyen Et, Tavuk, Biber, Patlıcan, Kabak, Soğan, Soya Sos",
-        "price": "450"
+        "price": "mevcut değil"
       },
       {
         "headingText": "Chili Soslu Tavuk",
@@ -325,12 +325,12 @@
       {
         "headingText": "Etli Fajita",
         "descriptionText": "Jülyen Et, Biber, Patlıcan, Kabak, Soğan, Soya Sos",
-        "price": "475"
+        "price": "mevcut değil"
       },
       {
         "headingText": "Tavuklu Fajita",
         "descriptionText": "Tavuk, Biber, Patlıcan, Kabak, Soğan, Soya Sos",
-        "price": "375'"
+        "price": "mevcut değil'"
       }
     ]
   },
@@ -380,7 +380,7 @@
         "image": "../../makarna.JPG",
         "headingText": "Penne Pesto Porcini",
         "descriptionText": "Penne Makarna, Tavuk, Mantar, Krema, Pesto Sos",
-        "price": "325"
+        "price": "350"
       },
       {
         "image": "../../makarna-fettucine.JPG",
@@ -392,23 +392,23 @@
         "image": "../../makarna-kori-penne.JPG",
         "headingText": "Kori Soslu Penne Makarna",
         "descriptionText": "Penne Makarna, Krema, Kori Sos, Parmesan Peyniri",
-        "price": "295"
+        "price": "315"
       },
       {
         "image": "../../makarna-bolonez.JPG",
         "headingText": "Spagetti Bolonez",
         "descriptionText": "Spagetti Makarna, Domates Soslu Dana Kıyma, Parmesan Peyniri",
-        "price": "-"
+        "price": "nevcut değil"
       },
       {
         "image": "../../manti.JPG",
         "headingText": "Mantı",
-        "price": "295"
+        "price": "365"
       },
       {
         "headingText": "Penne Arabiata",
         "descriptionText": "Penne Makarna, Acı Sos, Parmesan, Fesleğen",
-        "price": "415"
+        "price": "mevcut değil"
       }
     ]
   },
